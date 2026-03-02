@@ -1,4 +1,4 @@
-🚗 Desafio Técnico — Road Safety EU (Data Package + Visualização)
+#🚗 Desafio Técnico — Road Safety EU (Data Package + Visualização)
 
 📌 Descrição do Desafio
 
@@ -19,11 +19,18 @@ Os dados foram obtidos da página da Wikipedia:
 List of countries by traffic-related death rate (2018)
 
 Foi utilizado:
-
+```
 requests para obter o HTML
+```
+```
 pandas.read_html() para extrair a tabela
+```
+```
 Limpeza das colunas (remoção de referências como [26], [27])
+```
+```
 Padronização de valores numéricos
+```
 
 2️⃣ Tratamento e Limpeza
 
