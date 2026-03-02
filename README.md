@@ -35,14 +35,14 @@ Padronização de nomes
 Organização das colunas relevantes
 Exportação para CSV limpo
 
-# Arquivo gerado:
+Arquivo gerado:
 data/processed/road_safety_eu.csv
 
 3️⃣ Transformação em Data Package
 
 O projeto foi estruturado seguindo o padrão Frictionless Data.
 
-# Arquivo gerado:
+Arquivo gerado:
 data/processed/datapackage.json
 
 O Data Package contém:
@@ -76,15 +76,16 @@ Permite observar um padrão interessante:
 
 Países com menor PIB per capita tendem a apresentar maiores taxas de mortalidade no trânsito.
 
-# Os gráficos são salvos em:
+Os gráficos são salvos em:
 data/processed/
 
 📁 Estrutura Final do Projeto
+```
 road-safety-eu/
 │
 ├── data/
 │   ├── raw/
-│       ├── eu_table.html
+│   │   └── eu_table.html
 │   └── processed/
 │       ├── road_safety_eu.csv
 │       ├── top10_deaths.png
@@ -97,21 +98,30 @@ road-safety-eu/
 │
 ├── requirements.txt
 └── README.md
+```
 
 ⚙️ Como Executar o Projeto
 
 1️⃣ Criar ambiente virtual
+```
 python -m venv venv
-
+```
 Ativar no Windows:
-
+```
 venv\Scripts\activate
+```
 2️⃣ Instalar dependências
+```
 pip install -r requirements.txt
+```
 3️⃣ Executar extração
+```
 python src/extract_road_safety.py
+```
 4️⃣ Executar análise
+```
 python src/analysis.py
+```
 
 📊 Insight Gerado
 
