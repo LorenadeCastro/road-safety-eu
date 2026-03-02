@@ -52,31 +52,62 @@ Exportação para CSV limpo
 ```
 
 Arquivo gerado:
+```
 data/processed/road_safety_eu.csv
+```
 
 3️⃣ Transformação em Data Package
 
 O projeto foi estruturado seguindo o padrão Frictionless Data.
 
 Arquivo gerado:
+```
 data/processed/datapackage.json
+```
 
 O Data Package contém:
-
+```
 Metadados do dataset
+```
+```
 Descrição da fonte
+```
+```
 Schema com tipos de dados
+```
+```
 Estrutura organizada para reutilização
+```
+```
 Campos disponíveis:
+```
+```
 Country
+```
+```
 Year
+```
+```
 Area
+```
+```
 Population
+```
+```
 GDP per capita
+```
+```
 Population density
+```
+```
 Vehicle ownership
+```
+```
 Total road deaths
+```
+```
 Road deaths per Million Inhabitants
+```
 
 4️⃣ Análise e Visualização
 
@@ -93,7 +124,9 @@ Permite observar um padrão interessante:
 Países com menor PIB per capita tendem a apresentar maiores taxas de mortalidade no trânsito.
 
 Os gráficos são salvos em:
+```
 data/processed/
+```
 
 📁 Estrutura Final do Projeto
 ```
@@ -192,4 +225,5 @@ Lorena de Castro Rocha Gonçalves
 ```
 ```
 Estudante de Análise e Desenvolvimento de Sistemas
+```
 ```
