@@ -1,0 +1,32 @@
+{
+  "name": "eu-road-safety-2018",
+  "title": "European Union Road Safety Data (2018)",
+  "description": "Dataset containing road safety indicators for EU countries in 2018, including GDP, population, vehicle ownership and road fatalities.",
+  "version": "1.0.0",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "resources": [
+    {
+      "name": "road_safety_eu",
+      "path": "road_safety_eu.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {"name": "Country", "type": "string"},
+          {"name": "Year", "type": "integer"},
+          {"name": "Area", "type": "number"},
+          {"name": "Population", "type": "integer"},
+          {"name": "GDP per capita", "type": "number"},
+          {"name": "Population density", "type": "number"},
+          {"name": "Vehicle ownership", "type": "number"},
+          {"name": "Total road deaths", "type": "integer"},
+          {"name": "Road deaths per Million Inhabitants", "type": "number"}
+        ]
+      }
+    }
+  ]
+}
