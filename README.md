@@ -134,12 +134,17 @@ Existe relação inversa entre desenvolvimento econômico (PIB per capita) e seg
 Países com maior investimento e infraestrutura tendem a apresentar menores taxas de mortalidade.
 
 🎯 Objetivos do Desafio Atendidos
-
+```
 ✔ Extração automatizada
+```
 ✔ Limpeza e tratamento de dados
+```
 ✔ Organização como Data Package
+```
 ✔ Geração de visualização
+```
 ✔ Identificação de insight relevante
+```
 
 🛠 Tecnologias Utilizadas
 
