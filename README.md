@@ -137,24 +137,43 @@ Países com maior investimento e infraestrutura tendem a apresentar menores taxa
 ```
 ✔ Extração automatizada
 ```
+```
 ✔ Limpeza e tratamento de dados
+```
 ```
 ✔ Organização como Data Package
 ```
+```
 ✔ Geração de visualização
+```
 ```
 ✔ Identificação de insight relevante
 ```
 
 🛠 Tecnologias Utilizadas
-
+```
 Python 3.12
+```
+```
 Pandas
+```
+```
 Requests
+```
+```
 BeautifulSoup
+```
+```
 LXML
+```
+```
 Matplotlib
+```
 
 👩‍💻 Autora:
+```
 Lorena de Castro Rocha Gonçalves
+```
+```
 Estudante de Análise e Desenvolvimento de Sistemas
+```
