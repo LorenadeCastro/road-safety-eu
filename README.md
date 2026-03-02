@@ -220,10 +220,7 @@ Matplotlib
 ```
 
 👩‍💻 Autora:
-```
 Lorena de Castro Rocha Gonçalves
-```
-```
+
 Estudante de Análise e Desenvolvimento de Sistemas
-```
-```
+
