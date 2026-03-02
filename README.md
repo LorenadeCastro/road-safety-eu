@@ -1,4 +1,4 @@
-#🚗 Desafio Técnico — Road Safety EU (Data Package + Visualização)
+## 🚗 Desafio Técnico — Road Safety EU (Data Package + Visualização)
 
 📌 Descrição do Desafio
 
@@ -35,12 +35,21 @@ Padronização de valores numéricos
 2️⃣ Tratamento e Limpeza
 
 Foram realizadas as seguintes etapas:
-
+```
 Remoção de notas de rodapé
+```
+```
 Conversão de colunas numéricas
+```
+```
 Padronização de nomes
+```
+```
 Organização das colunas relevantes
+```
+```
 Exportação para CSV limpo
+```
 
 Arquivo gerado:
 data/processed/road_safety_eu.csv
